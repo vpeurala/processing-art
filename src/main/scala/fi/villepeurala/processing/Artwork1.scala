@@ -32,3 +32,9 @@ class Artwork1 extends PApplet {
     Math.sqrt(Math.pow(xDist, 2) + Math.pow(yDist, 2))
   }
 }
+
+object Artwork1 {
+  def main(args: Array[String]): Unit = {
+    PApplet.main(classOf[Artwork1].getName)
+  }
+}
